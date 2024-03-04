@@ -41,7 +41,7 @@ const Sidebar = () => {
                         sizes="(max-width: 512px) 100vw, 33vw"
                         />
                     </div>
-                    <h1 className={cn("text-xl font-bold", montserrat.className)}>White <span className="text-red-600">Red</span></h1>
+                    <h1 className={cn("text-xl font-bold", montserrat.className)}>Table <span className="text-yellow-200">Cloud</span></h1>
                 </Link>
                 <div className="space-y-1">
                     {routes.map((route) => (
